@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		D624804325C575B6006E5ED5 /* VideoCapture.swift in Sources */ = {isa = PBXBuildFile; fileRef = D624804225C575B6006E5ED5 /* VideoCapture.swift */; };
 		D6ACA09A25BED38000CBD256 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = D6ACA09925BED38000CBD256 /* AppDelegate.swift */; };
 		D6ACA09C25BED38000CBD256 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = D6ACA09B25BED38000CBD256 /* SceneDelegate.swift */; };
 		D6ACA09E25BED38000CBD256 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = D6ACA09D25BED38000CBD256 /* ViewController.swift */; };
@@ -16,6 +17,7 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		D624804225C575B6006E5ED5 /* VideoCapture.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = VideoCapture.swift; sourceTree = "<group>"; };
 		D6ACA09625BED38000CBD256 /* RealTimeImageObject.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = RealTimeImageObject.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		D6ACA09925BED38000CBD256 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		D6ACA09B25BED38000CBD256 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
@@ -59,6 +61,7 @@
 				D6ACA09925BED38000CBD256 /* AppDelegate.swift */,
 				D6ACA09B25BED38000CBD256 /* SceneDelegate.swift */,
 				D6ACA09D25BED38000CBD256 /* ViewController.swift */,
+				D624804225C575B6006E5ED5 /* VideoCapture.swift */,
 				D6ACA09F25BED38000CBD256 /* Main.storyboard */,
 				D6ACA0A225BED38400CBD256 /* Assets.xcassets */,
 				D6ACA0A425BED38400CBD256 /* LaunchScreen.storyboard */,
@@ -138,6 +141,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				D6ACA09E25BED38000CBD256 /* ViewController.swift in Sources */,
+				D624804325C575B6006E5ED5 /* VideoCapture.swift in Sources */,
 				D6ACA09A25BED38000CBD256 /* AppDelegate.swift in Sources */,
 				D6ACA09C25BED38000CBD256 /* SceneDelegate.swift in Sources */,
 			);
@@ -289,14 +293,15 @@
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = XG67HJ66AZ;
 				INFOPLIST_FILE = RealTimeImageObject/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.4;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
 				);
-				PRODUCT_BUNDLE_IDENTIFIER = com.yuta.waseda.RealTimeImageObject;
+				PRODUCT_BUNDLE_IDENTIFIER = com.yuta.waseda.ObjectDetections;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 5.0;
-				TARGETED_DEVICE_FAMILY = "1,2";
+				TARGETED_DEVICE_FAMILY = 1;
 			};
 			name = Debug;
 		};
@@ -308,14 +313,15 @@
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = XG67HJ66AZ;
 				INFOPLIST_FILE = RealTimeImageObject/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.4;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
 				);
-				PRODUCT_BUNDLE_IDENTIFIER = com.yuta.waseda.RealTimeImageObject;
+				PRODUCT_BUNDLE_IDENTIFIER = com.yuta.waseda.ObjectDetections;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 5.0;
-				TARGETED_DEVICE_FAMILY = "1,2";
+				TARGETED_DEVICE_FAMILY = 1;
 			};
 			name = Release;
 		};
