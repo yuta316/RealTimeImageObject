@@ -8,6 +8,11 @@
 
 /* Begin PBXBuildFile section */
 		D624804325C575B6006E5ED5 /* VideoCapture.swift in Sources */ = {isa = PBXBuildFile; fileRef = D624804225C575B6006E5ED5 /* VideoCapture.swift */; };
+		D624804725C94573006E5ED5 /* pyyolov3.mlmodel in Sources */ = {isa = PBXBuildFile; fileRef = D624804625C94572006E5ED5 /* pyyolov3.mlmodel */; };
+		D624804A25C94C97006E5ED5 /* YOLOV3.swift in Sources */ = {isa = PBXBuildFile; fileRef = D624804925C94C97006E5ED5 /* YOLOV3.swift */; };
+		D624804D25C95F40006E5ED5 /* UIImage+CVPixelBuffer.swift in Sources */ = {isa = PBXBuildFile; fileRef = D624804C25C95F40006E5ED5 /* UIImage+CVPixelBuffer.swift */; };
+		D624805025C98923006E5ED5 /* Helpers.swift in Sources */ = {isa = PBXBuildFile; fileRef = D624804F25C98923006E5ED5 /* Helpers.swift */; };
+		D624805425C99080006E5ED5 /* BoundingBox.swift in Sources */ = {isa = PBXBuildFile; fileRef = D624805325C99080006E5ED5 /* BoundingBox.swift */; };
 		D6ACA09A25BED38000CBD256 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = D6ACA09925BED38000CBD256 /* AppDelegate.swift */; };
 		D6ACA09C25BED38000CBD256 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = D6ACA09B25BED38000CBD256 /* SceneDelegate.swift */; };
 		D6ACA09E25BED38000CBD256 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = D6ACA09D25BED38000CBD256 /* ViewController.swift */; };
@@ -18,6 +23,11 @@
 
 /* Begin PBXFileReference section */
 		D624804225C575B6006E5ED5 /* VideoCapture.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = VideoCapture.swift; sourceTree = "<group>"; };
+		D624804625C94572006E5ED5 /* pyyolov3.mlmodel */ = {isa = PBXFileReference; lastKnownFileType = file.mlmodel; name = pyyolov3.mlmodel; path = ../../../img_detection/pyyolov3.mlmodel; sourceTree = "<group>"; };
+		D624804925C94C97006E5ED5 /* YOLOV3.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = YOLOV3.swift; sourceTree = "<group>"; };
+		D624804C25C95F40006E5ED5 /* UIImage+CVPixelBuffer.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "UIImage+CVPixelBuffer.swift"; sourceTree = "<group>"; };
+		D624804F25C98923006E5ED5 /* Helpers.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Helpers.swift; sourceTree = "<group>"; };
+		D624805325C99080006E5ED5 /* BoundingBox.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = BoundingBox.swift; path = "../../YOLOv3-CoreML-master/YOLOv3-CoreML/YOLOv3-CoreML/BoundingBox.swift"; sourceTree = "<group>"; };
 		D6ACA09625BED38000CBD256 /* RealTimeImageObject.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = RealTimeImageObject.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		D6ACA09925BED38000CBD256 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		D6ACA09B25BED38000CBD256 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
@@ -60,10 +70,15 @@
 			children = (
 				D6ACA09925BED38000CBD256 /* AppDelegate.swift */,
 				D6ACA09B25BED38000CBD256 /* SceneDelegate.swift */,
+				D624804C25C95F40006E5ED5 /* UIImage+CVPixelBuffer.swift */,
 				D6ACA09D25BED38000CBD256 /* ViewController.swift */,
+				D624804925C94C97006E5ED5 /* YOLOV3.swift */,
 				D624804225C575B6006E5ED5 /* VideoCapture.swift */,
+				D624805325C99080006E5ED5 /* BoundingBox.swift */,
 				D6ACA09F25BED38000CBD256 /* Main.storyboard */,
+				D624804F25C98923006E5ED5 /* Helpers.swift */,
 				D6ACA0A225BED38400CBD256 /* Assets.xcassets */,
+				D624804625C94572006E5ED5 /* pyyolov3.mlmodel */,
 				D6ACA0A425BED38400CBD256 /* LaunchScreen.storyboard */,
 				D6ACA0A725BED38400CBD256 /* Info.plist */,
 			);
@@ -141,8 +156,13 @@
 			buildActionMask = 2147483647;
 			files = (
 				D6ACA09E25BED38000CBD256 /* ViewController.swift in Sources */,
+				D624804A25C94C97006E5ED5 /* YOLOV3.swift in Sources */,
 				D624804325C575B6006E5ED5 /* VideoCapture.swift in Sources */,
+				D624805425C99080006E5ED5 /* BoundingBox.swift in Sources */,
+				D624805025C98923006E5ED5 /* Helpers.swift in Sources */,
 				D6ACA09A25BED38000CBD256 /* AppDelegate.swift in Sources */,
+				D624804D25C95F40006E5ED5 /* UIImage+CVPixelBuffer.swift in Sources */,
+				D624804725C94573006E5ED5 /* pyyolov3.mlmodel in Sources */,
 				D6ACA09C25BED38000CBD256 /* SceneDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
